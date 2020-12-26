@@ -106,16 +106,11 @@ function iniciarJogo(){
     
 
     let newHead = {
-        x : snakeX;
-        y : snakeY;
+        x : snakeX,
+        y : snakeY
     }
 
     snake.unshift(newHead);
-
-
-
-
-
 }
 
 var jogo = setInterval(iniciarJogo, 100);
